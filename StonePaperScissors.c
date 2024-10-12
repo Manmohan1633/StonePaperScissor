@@ -9,7 +9,7 @@ int game (char user, char computer){
     if (user == 'z' && computer == 'p')              
     return 1;                                       /*In these if statement i used
                                                       earlier I used user="z" 
-                                                      which game me error as literal 
+                                                      which gave me error as literal 
                                                       should be in ''*/
     else if (user == 'p' && computer == 'z')
     return 0;
